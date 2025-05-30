@@ -128,7 +128,7 @@
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); /* Bikin responsif */
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .product-card {
@@ -140,6 +140,12 @@
     flex-direction: column;
     align-items: center; /* Tengahkan konten kartu */
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.01); /* Kartu jadi 3% lebih besar pas di-hover */
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.10); /* Shadow-nya dibikin lebih dramatis dikit (opsional) */
 }
 
 .product-card .badge {
@@ -169,20 +175,26 @@
 }
 
 .product-image {
-    width: 80%;
+    width: 65%;
     max-width: 200px; /* Batas maksimal lebar gambar */
     height: auto;
     aspect-ratio: 1 / 1; /* Biar gambar agak kotak */
     object-fit: contain; /* Biar gambar gak gepeng */
     margin-bottom: 15px;
     margin-top: 25px; /* Kasih space dari badge */
+    transition: transform 0.4s ease-in-out;
+}
+
+.product-card:hover .product-image {
+    transform: rotate(5deg); /* Gambar muter 5 derajat pas card di-hover */
+    /* Atau kalo mau muter ke kiri: transform: rotate(-5deg); */
 }
 
 .product-title {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #1f2937;
+    color: black;
     height: 3em; /* Batasi tinggi judul biar rapi */
     overflow: hidden;
 }
@@ -225,7 +237,7 @@
 
 
 .product-description {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #4b5563;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -239,7 +251,7 @@
     border: none;
     border-radius: 10px;
     padding: 12px 25px;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -254,7 +266,7 @@
 
 .rent-button .price {
     display: block; /* Biar harga di baris baru kalo mau */
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: normal;
     opacity: 0.9;
     margin-top: 3px;

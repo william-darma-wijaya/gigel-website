@@ -7,7 +7,7 @@
         "rating": { "average": 4.3, "count": 5234 },
         "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
         "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp6357/day"
+        "pricePerDay": "Rp 6.357/day"
     },
     {
         "id": "p2",
@@ -17,7 +17,7 @@
         "rating": { "average": 4.9, "count": 1234 },
         "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
         "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp5000/day"
+        "pricePerDay": "Rp 5.000/day"
     },
     {
         "id": "p3",
@@ -27,6 +27,96 @@
         "rating": { "average": 4.9, "count": 23 },
         "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
         "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp1428/day"
+        "pricePerDay": "Rp 1.428/day"
+    },
+    {
+        "id": "p4",
+        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "image": "../assets/Little-Tikes-Rocking-Horse.png",
+        "title": "Little Tikes Rocking Horse",
+        "rating": { "average": 4.3, "count": 5234 },
+        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 6.357/day"
+    },
+    {
+        "id": "p5",
+        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "image": "../assets/Winfun-Walking-Ride-On-Train.png",
+        "title": "Winfun Walking Ride on Train",
+        "rating": { "average": 4.9, "count": 1234 },
+        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 5.000/day"
+    },
+    {
+        "id": "p6",
+        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "image": "../assets/Around-The-House-Sound-Puzzle.png",
+        "title": "Around the House Sound Puzzle",
+        "rating": { "average": 4.9, "count": 23 },
+        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 1.428/day"
+    },
+    {
+        "id": "p7",
+        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "image": "../assets/Little-Tikes-Rocking-Horse.png",
+        "title": "Little Tikes Rocking Horse",
+        "rating": { "average": 4.3, "count": 5234 },
+        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 6.357/day"
+    },
+    {
+        "id": "p8",
+        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "image": "../assets/Winfun-Walking-Ride-On-Train.png",
+        "title": "Winfun Walking Ride on Train",
+        "rating": { "average": 4.9, "count": 1234 },
+        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 5.000/day"
+    },
+    {
+        "id": "p9",
+        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "image": "../assets/Around-The-House-Sound-Puzzle.png",
+        "title": "Around the House Sound Puzzle",
+        "rating": { "average": 4.9, "count": 23 },
+        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 1.428/day"
+    },
+    {
+        "id": "p10",
+        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "image": "../assets/Little-Tikes-Rocking-Horse.png",
+        "title": "Little Tikes Rocking Horse",
+        "rating": { "average": 4.3, "count": 5234 },
+        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 6.357/day"
+    },
+    {
+        "id": "p11",
+        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "image": "../assets/Winfun-Walking-Ride-On-Train.png",
+        "title": "Winfun Walking Ride on Train",
+        "rating": { "average": 4.9, "count": 1234 },
+        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 5.000/day"
+    },
+    {
+        "id": "p12",
+        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "image": "../assets/Around-The-House-Sound-Puzzle.png",
+        "title": "Around the House Sound Puzzle",
+        "rating": { "average": 4.9, "count": 23 },
+        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
+        "buttonText": "RENT PRODUCT",
+        "pricePerDay": "Rp 1.428/day"
     }
 ]
