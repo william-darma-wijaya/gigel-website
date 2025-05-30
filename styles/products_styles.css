@@ -271,3 +271,61 @@
     opacity: 0.9;
     margin-top: 3px;
 }
+
+.pagination-container { 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.pagination {
+    display: flex; /* Biar tombolnya jejer rapi */
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Jarak antar tombol */
+}
+
+.page-nav,
+.page-number {
+    display: inline-flex; /* Biar padding & alignmentnya pas */
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600; /* Biar agak tebel tulisannya */
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Style buat tombol angka */
+.page-number {
+    min-width: 40px; /* Biar lebar tombol angka konsisten */
+    height: 40px;
+    background-color: var(--lavender-blush); /* Warna pink lavender muda banget buat tombol biasa */
+    color: #7D5A94; /* Warna teks abu-abu keunguan buat tombol biasa */
+    border: 1px solid #F8E8EE; /* Border tipis biar ada outline */
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Style buat tombol "Previous" & "Next" */
+.page-nav {
+    padding: 0 18px; /* Bikin lebih lebar dari tombol angka */
+    height: 40px;
+    color: #7D5A94;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Style buat tombol yang lagi AKTIF (misal halaman 1) */
+.page-number.active {
+    background-color: #D9A6C2; /* Warna ungu/pink lebih pekat buat background aktif */
+    color: white; /* Teks jadi putih */
+    border-color: #D9A6C2; /* Border samain aja */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow dikit pas aktif */
+}
+
+/* Efek hover tipis-tipis (opsional, biar ada interaksi dikit) */
+.page-number:not(.active):hover { /* Tombol angka yang gak aktif aja yg berubah pas hover */
+    background-color: #F8E8EE; /* Warna background jadi sedikit lebih gelap pas di-hover */
+    /* color: #6A4F80; */ /* Warna teks bisa diubah juga kalo mau */
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); */
+}
