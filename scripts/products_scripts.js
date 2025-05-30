@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(products => {
             if (products.length === 0) {
-                productGrid.innerHTML = '<p>Yah, produknya lagi kosong nih, Kiwil!</p>';
+                productGrid.innerHTML = '<p>The product is empty!</p>';
                 return;
             }
             products.forEach(product => {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         })
         .catch(error => {
-            console.error('Gagal ngambil data produk:', error);
-            productGrid.innerHTML = `<p>Waduh, Kiwil, ada masalah nih pas ngambil data produk: ${error.message}</p>`;
+            console.error('Failed to load product:', error);
+            productGrid.innerHTML = `<p>There is a problem while retrieving the products: ${error.message}</p>`;
         });
 });
