@@ -118,3 +118,135 @@
     right: 25%;
     animation-delay: 2s;
 }
+
+.product-grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-grid-container h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #4b5563;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Bikin responsif */
+    gap: 25px;
+}
+
+.product-card {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative; /* Buat positioning badge */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Tengahkan konten kartu */
+    text-align: center;
+}
+
+.product-card .badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.badge.best-seller {
+    background-color: var(--best-seller-bg);
+    color: var(--best-seller-text);
+}
+
+.badge.top-rated {
+    background-color: var(--top-rated-bg);
+    color: var(--top-rated-text);
+}
+
+.badge.new-product {
+    background-color: var(--new-product-bg);
+    color: var(--new-product-text);
+}
+
+.product-image {
+    width: 80%;
+    max-width: 200px; /* Batas maksimal lebar gambar */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Biar gambar agak kotak */
+    object-fit: contain; /* Biar gambar gak gepeng */
+    margin-bottom: 15px;
+    margin-top: 25px; /* Kasih space dari badge */
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1f2937;
+    height: 3em; /* Batasi tinggi judul biar rapi */
+    overflow: hidden;
+}
+
+.product-rating {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.product-rating .star {
+    font-size: 1.1em; /* Ukuran bintangnya */
+}
+.product-rating .star.filled {
+    color: var(--star-filled);
+}
+.product-rating .star.empty {
+    color: var(--star-empty);
+}
+.product-rating .rating-text {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
+.product-description {
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    height: 4.5em; /* Batasi tinggi deskripsi */
+    overflow: hidden;
+}
+
+.rent-button {
+    background-image: linear-gradient(to right, var(--button-gradient-start), var(--button-gradient-end));
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 90%; /* Lebar tombol */
+    margin-top: auto; /* Dorong tombol ke bawah kalo cardnya flex */
+}
+
+.rent-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.rent-button .price {
+    display: block; /* Biar harga di baris baru kalo mau */
+    font-size: 0.8em;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-top: 3px;
+}
