@@ -317,7 +317,7 @@
 
 /* Style buat tombol yang lagi AKTIF (misal halaman 1) */
 .page-number.active {
-    background-color: #D9A6C2; /* Warna ungu/pink lebih pekat buat background aktif */
+    background-color: var(--lavender); /* Warna ungu/pink lebih pekat buat background aktif */
     color: white; /* Teks jadi putih */
     border-color: #D9A6C2; /* Border samain aja */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow dikit pas aktif */

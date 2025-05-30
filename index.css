@@ -114,7 +114,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #2c3e50;
+    background: #8565c4;
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -165,12 +165,13 @@ body {
 .link-group h4 {
     margin-bottom: 1rem;
     font-weight: 700;
+    font-size: 1.1rem;
     color: #ff9a9e;
 }
 
 .link-group a {
     display: block;
-    color: #bdc3c7;
+    color: white;
     text-decoration: none;
     margin-bottom: 0.5rem;
     transition: color 0.3s ease;
