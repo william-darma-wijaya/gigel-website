@@ -161,13 +161,13 @@
 }
 
 .badge.best-seller {
-    background-color: var(--best-seller-bg);
-    color: var(--best-seller-text);
+    background-color: var(--blue);
+    color: white;
 }
 
 .badge.top-rated {
-    background-color: var(--top-rated-bg);
-    color: var(--top-rated-text);
+    background-color: var(--red);
+    color: white;
 }
 
 .badge.new-product {
