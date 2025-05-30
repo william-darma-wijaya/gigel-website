@@ -138,7 +138,7 @@
 }
 
 .product-card {
-    background-color: var(--card-bg);
+    background-color: var(--lavender-blush);
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -171,8 +171,8 @@
 }
 
 .badge.new-product {
-    background-color: var(--new-product-bg);
-    color: var(--new-product-text);
+    background-color: var(--green);
+    color: white;
 }
 
 .product-image {
