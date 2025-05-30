@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #DDA0DD 0%, #B0C4DE 100%);
+    background: linear-gradient(110deg, #DDA0DD 60%, #B0C4DE 100%);
     color: white;
     padding: 4rem 2rem;
     min-height: 70vh;
@@ -11,7 +11,7 @@
 }
 
 .hero-content {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
