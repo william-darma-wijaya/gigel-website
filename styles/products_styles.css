@@ -121,27 +121,20 @@
 
 .product-grid-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 3rem auto;
     text-align: center;
-}
-
-.product-grid-container h1 {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: #4b5563;
 }
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Bikin responsif */
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); /* Bikin responsif */
+    gap: 4rem;
 }
 
 .product-card {
     background-color: var(--lavender-blush);
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     position: relative; /* Buat positioning badge */
     display: flex;
     flex-direction: column;
@@ -202,12 +195,28 @@
 
 .product-rating .star {
     font-size: 1.1em; /* Ukuran bintangnya */
+    display: inline-block; /* Penting biar ::before bisa diatur width & overflow-nya */
+    position: relative;    /* Jadi patokan buat ::before yang absolute */
+    line-height: 1;      /* Biar rapi */
 }
 .product-rating .star.filled {
-    color: var(--star-filled);
+    color: var(--yellow);
 }
 .product-rating .star.empty {
-    color: var(--star-empty);
+    color: var(--yellow);
+}
+.product-rating .star.half-filled {
+    color: var(--yellow); /* Warna dasar bintangnya itu warna bintang kosong */
+}
+
+.product-rating .star.half-filled::before {
+    content: '★'; /* Pake karakter bintang PENUH buat ngisi setengahnya */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%; /* Kuncinya di sini! Cuma nunjukin 50% lebar karakter bintang penuh */
+    overflow: hidden; /* Sembunyiin sisa 50% karakter bintang penuhnya */
+    color: var(--star-filled); /* Warna buat setengah yang keisi itu warna bintang penuh */
 }
 .product-rating .rating-text {
     margin-left: 5px;
@@ -225,10 +234,10 @@
 }
 
 .rent-button {
-    background-image: linear-gradient(to right, var(--button-gradient-start), var(--button-gradient-end));
+    background-image: linear-gradient(to right, #FF96A7, #E260E2);
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 12px 25px;
     font-size: 0.95rem;
     font-weight: bold;
