@@ -203,8 +203,12 @@
     margin-bottom: 1.5rem;
 }
 
-.view-all-btn {
+.section-header a {
+    text-decoration: none;
     align-self: flex-end;
+}
+
+.view-all-btn {
     background: linear-gradient(135deg, #ff9a9e, #fecfef);
     border: none;
     color: #333;
