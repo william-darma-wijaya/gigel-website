@@ -1,7 +1,7 @@
 [
     {
         "id": "p1",
-        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "badge": { "text": "TERLARIS", "type": "best-seller" },
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
@@ -11,7 +11,7 @@
     },
     {
         "id": "p2",
-        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
@@ -21,7 +21,7 @@
     },
     {
         "id": "p3",
-        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "badge": { "text": "PRODUK BARU", "type": "new-product" },
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
@@ -31,7 +31,7 @@
     },
     {
         "id": "p4",
-        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "badge": { "text": "TERLARIS", "type": "best-seller" },
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
@@ -41,7 +41,7 @@
     },
     {
         "id": "p5",
-        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
@@ -51,7 +51,7 @@
     },
     {
         "id": "p6",
-        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "badge": { "text": "PRODUK BARU", "type": "new-product" },
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
@@ -61,7 +61,7 @@
     },
     {
         "id": "p7",
-        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "badge": { "text": "TERLARIS", "type": "best-seller" },
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
@@ -71,7 +71,7 @@
     },
     {
         "id": "p8",
-        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
@@ -81,7 +81,7 @@
     },
     {
         "id": "p9",
-        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "badge": { "text": "PRODUK BARU", "type": "new-product" },
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
@@ -91,7 +91,7 @@
     },
     {
         "id": "p10",
-        "badge": { "text": "BEST SELLER", "type": "best-seller" },
+        "badge": { "text": "TERLARIS", "type": "best-seller" },
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
@@ -101,7 +101,7 @@
     },
     {
         "id": "p11",
-        "badge": { "text": "TOP RATED", "type": "top-rated" },
+        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
@@ -111,7 +111,7 @@
     },
     {
         "id": "p12",
-        "badge": { "text": "NEW PRODUCT", "type": "new-product" },
+        "badge": { "text": "PRODUK BARU", "type": "new-product" },
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
