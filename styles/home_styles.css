@@ -86,6 +86,7 @@
 
 .floating-item {
     position: absolute;
+    pointer-events: none;
     font-size: 3rem;
     animation: float 3s ease-in-out infinite;
     opacity: 0.8;
