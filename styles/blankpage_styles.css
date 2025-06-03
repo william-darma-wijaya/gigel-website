@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.center {
+  display: flex; /* Wajib ada ini */
+  justify-content: center; /* Rata tengah horizontal */
+  align-items: center; /* Rata tengah vertikal */
+  height: 100%; /* Bikin si .center ngisi tinggi halaman penuh */
+  width: 100%; /* Bikin si .center ngisi lebar halaman penuh (opsional, tapi bagus) */
+}
