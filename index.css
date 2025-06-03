@@ -13,6 +13,7 @@
     --red: #FF6179;
     --yellow: #FFCD29;
     --green: #54DE59;
+    --dark-purple: #8A2BE2;
 }
 
 body {
@@ -87,7 +88,7 @@ body {
 }
 
 .navbar-links a.active {
-    color: #8A2BE2;
+    color: var(--dark-purple);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 5px;
