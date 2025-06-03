@@ -5,9 +5,9 @@
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
-        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 6.357/day"
+        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 6.357/hari"
     },
     {
         "id": "p2",
@@ -15,9 +15,9 @@
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
-        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 5.000/day"
+        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 5.000/hari"
     },
     {
         "id": "p3",
@@ -25,9 +25,9 @@
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
-        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 1.428/day"
+        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 1.428/hari"
     },
     {
         "id": "p4",
@@ -35,9 +35,9 @@
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
-        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 6.357/day"
+        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 6.357/hari"
     },
     {
         "id": "p5",
@@ -45,9 +45,9 @@
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
-        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 5.000/day"
+        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 5.000/hari"
     },
     {
         "id": "p6",
@@ -55,9 +55,9 @@
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
-        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 1.428/day"
+        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 1.428/hari"
     },
     {
         "id": "p7",
@@ -65,9 +65,9 @@
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
-        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 6.357/day"
+        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 6.357/hari"
     },
     {
         "id": "p8",
@@ -75,9 +75,9 @@
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
-        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 5.000/day"
+        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 5.000/hari"
     },
     {
         "id": "p9",
@@ -85,9 +85,9 @@
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
-        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 1.428/day"
+        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 1.428/hari"
     },
     {
         "id": "p10",
@@ -95,9 +95,9 @@
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
         "rating": { "average": 4.3, "count": 5234 },
-        "description": "A safe rocking horse toy for kids 12+ months, made from high-quality plastic to support motor skill development.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 6.357/day"
+        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 6.357/hari"
     },
     {
         "id": "p11",
@@ -105,9 +105,9 @@
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
         "rating": { "average": 4.9, "count": 1234 },
-        "description": "A 3-in-1 ride-on toy for kids 12+ months that develops motor skills and introduces letters, colors, and sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 5.000/day"
+        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 5.000/hari"
     },
     {
         "id": "p12",
@@ -115,8 +115,8 @@
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
         "rating": { "average": 4.9, "count": 23 },
-        "description": "A sound puzzle for kids 18+ months that sparks imagination and creativity, featuring 8 pieces with different household sounds.",
-        "buttonText": "RENT PRODUCT",
-        "pricePerDay": "Rp 1.428/day"
+        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "buttonText": "SEWA PRODUK",
+        "pricePerDay": "Rp 1.428/hari"
     }
 ]
