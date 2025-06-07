@@ -2,7 +2,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const productGrid = document.getElementById('productGrid');
     const sortOptions = document.getElementById('sort-options');
+
+    // -- Bagian Baru: Selektor untuk Pagination --
+    const prevPageBtn = document.getElementById('prev-page');
+    const nextPageBtn = document.getElementById('next-page');
+    const pageInfoSpan = document.getElementById('page-info');
+
     let allProducts = [];
+    let currentProducts = []; // Data yang sedang ditampilkan (bisa ter-sort)
+    let currentPage = 1;
+    const ITEMS_PER_PAGE = 9; // Maksimal 9 produk per halaman
 
     // Fungsi buat nampilin bintang rating
     function getStarRatingHTML(ratingData) {
@@ -113,28 +122,62 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Fungsi untuk menampilkan halaman tertentu
+    function displayPage(page) {
+        currentPage = page;
+        const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+        const endIndex = startIndex + ITEMS_PER_PAGE;
+        
+        // "Potong" array produk sesuai halaman aktif
+        const paginatedItems = currentProducts.slice(startIndex, endIndex);
+        
+        // Render produk yang udah dipotong
+        renderProducts(paginatedItems);
+        // Update tampilan info & tombol pagination
+        updatePaginationUI();
+    }
+
+    // Fungsi untuk update info "Page 1 of 3" dan status tombol
+    function updatePaginationUI() {
+        const totalPages = Math.ceil(currentProducts.length / ITEMS_PER_PAGE);
+        pageInfoSpan.textContent = `Page ${currentPage} of ${totalPages}`;
+
+        // Atur tombol 'prev' jadi disabled kalo di halaman pertama
+        if (currentPage === 1) {
+            prevPageBtn.classList.add('disabled');
+        } else {
+            prevPageBtn.classList.remove('disabled');
+        }
+
+        // Atur tombol 'next' jadi disabled kalo di halaman terakhir
+        if (currentPage === totalPages) {
+            nextPageBtn.classList.add('disabled');
+        } else {
+            nextPageBtn.classList.remove('disabled');
+        }
+    }
+
+    // --- Ambil data dari JSON dan Setup Awal ---
     fetch('../data/products.json')
-        .then(response => {
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            return response.json();
-        })
+        .then(response => response.json())
         .then(products => {
             allProducts = products;
+            currentProducts = allProducts; // Awalnya, data aktif = data master
+            
             if (allProducts.length === 0) {
                 productGrid.innerHTML = '<p>Produk kosong!</p>';
                 return;
             }
-            renderProducts(allProducts);
+            // Tampilkan halaman pertama saat data berhasil dimuat
+            displayPage(1);
         })
-        .catch(error => {
-            console.error('Gagal memuat produk:', error);
-            productGrid.innerHTML = `<p>Ada masalah saat mengambil data produk: ${error.message}</p>`;
-        });
+        .catch(error => console.error('Gagal memuat produk:', error));
 
+    // --- MODIFIKASI: Event listener untuk sorting ---
     sortOptions.addEventListener('change', (event) => {
         const selectedValue = event.target.value;
-        let sortedProducts = [...allProducts];
-
+        let sortedProducts = [...allProducts]; // Selalu sort dari data master
+        
         if (selectedValue === 'price-asc') {
             sortedProducts.sort((a, b) => parseFloat(a.pricePerDay) - parseFloat(b.pricePerDay));
         } else if (selectedValue === 'price-desc') {
@@ -144,7 +187,24 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (selectedValue === 'name-asc') {
             sortedProducts.sort((a, b) => a.title.localeCompare(b.title));
         }
+        
+        currentProducts = sortedProducts; // Update data aktif dengan hasil sort
+        displayPage(1); // RESET ke halaman 1 setiap kali sorting
+    });
 
-        renderProducts(sortedProducts);
+    // --- BAGIAN BARU: Event listener untuk tombol pagination ---
+    prevPageBtn.addEventListener('click', (e) => {
+        e.preventDefault(); // Mencegah link pindah halaman
+        if (currentPage > 1) {
+            displayPage(currentPage - 1);
+        }
+    });
+
+    nextPageBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const totalPages = Math.ceil(currentProducts.length / ITEMS_PER_PAGE);
+        if (currentPage < totalPages) {
+            displayPage(currentPage + 1);
+        }
     });
 });
