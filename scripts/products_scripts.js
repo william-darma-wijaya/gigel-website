@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const productGrid = document.getElementById('productGrid');
     const sortOptions = document.getElementById('sort-options');
 
+    const searchForm = document.getElementById('search-form');
+    const searchInput = document.getElementById('search-input');
+
     // -- Bagian Baru: Selektor untuk Pagination --
     const prevPageBtn = document.getElementById('prev-page');
     const nextPageBtn = document.getElementById('next-page');
@@ -116,6 +119,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // ... (sisa kodenya: fungsi renderProducts, fetch, dan event listener sorting SAMA PERSIS) ...
     function renderProducts(productsToRender) {
         productGrid.innerHTML = '';
+        if (productsToRender.length === 0) {
+            productGrid.innerHTML = '<p>Yah, produk yang kamu cari nggak ketemu :(</p>';
+            return;
+        }
         productsToRender.forEach(product => {
             const productCardElement = createProductCard(product);
             productGrid.appendChild(productCardElement);
@@ -139,22 +146,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fungsi untuk update info "Page 1 of 3" dan status tombol
     function updatePaginationUI() {
+        // Jangan tampilkan pagination jika tidak ada produk
+        if (currentProducts.length === 0) {
+            pageInfoSpan.textContent = '';
+            prevPageBtn.classList.add('disabled');
+            nextPageBtn.classList.add('disabled');
+            return;
+        }
         const totalPages = Math.ceil(currentProducts.length / ITEMS_PER_PAGE);
         pageInfoSpan.textContent = `Page ${currentPage} of ${totalPages}`;
+        prevPageBtn.classList.toggle('disabled', currentPage === 1);
+        nextPageBtn.classList.toggle('disabled', currentPage === totalPages || totalPages === 0);
+    }
 
-        // Atur tombol 'prev' jadi disabled kalo di halaman pertama
-        if (currentPage === 1) {
-            prevPageBtn.classList.add('disabled');
-        } else {
-            prevPageBtn.classList.remove('disabled');
+    function applyFiltersAndSort() {
+        const searchQuery = searchInput.value.toLowerCase().trim();
+        const sortValue = sortOptions.value;
+
+        // 1. Filter dulu dari data master berdasarkan pencarian
+        let processedProducts = allProducts.filter(product => 
+            product.title.toLowerCase().includes(searchQuery)
+        );
+
+        // 2. Sort hasil filter berdasarkan pilihan dropdown
+        if (sortValue === 'price-asc') {
+            processedProducts.sort((a, b) => parseFloat(a.pricePerDay) - parseFloat(b.pricePerDay));
+        } else if (sortValue === 'price-desc') {
+            processedProducts.sort((a, b) => parseFloat(b.pricePerDay) - parseFloat(a.pricePerDay));
+        } else if (sortValue === 'rating-desc') {
+            processedProducts.sort((a, b) => b.rating.average - a.rating.average);
+        } else if (sortValue === 'name-asc') {
+            processedProducts.sort((a, b) => a.title.localeCompare(b.title));
         }
 
-        // Atur tombol 'next' jadi disabled kalo di halaman terakhir
-        if (currentPage === totalPages) {
-            nextPageBtn.classList.add('disabled');
-        } else {
-            nextPageBtn.classList.remove('disabled');
-        }
+        // 3. Update data yang akan ditampilkan dan reset ke halaman 1
+        currentProducts = processedProducts;
+        displayPage(1);
     }
 
     // --- Ambil data dari JSON dan Setup Awal ---
@@ -174,22 +201,17 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Gagal memuat produk:', error));
 
     // --- MODIFIKASI: Event listener untuk sorting ---
-    sortOptions.addEventListener('change', (event) => {
-        const selectedValue = event.target.value;
-        let sortedProducts = [...allProducts]; // Selalu sort dari data master
-        
-        if (selectedValue === 'price-asc') {
-            sortedProducts.sort((a, b) => parseFloat(a.pricePerDay) - parseFloat(b.pricePerDay));
-        } else if (selectedValue === 'price-desc') {
-            sortedProducts.sort((a, b) => parseFloat(b.pricePerDay) - parseFloat(a.pricePerDay));
-        } else if (selectedValue === 'rating-desc') {
-            sortedProducts.sort((a, b) => b.rating.average - a.rating.average);
-        } else if (selectedValue === 'name-asc') {
-            sortedProducts.sort((a, b) => a.title.localeCompare(b.title));
+    sortOptions.addEventListener('change', applyFiltersAndSort);
+
+    searchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        applyFiltersAndSort();
+    });
+
+    searchInput.addEventListener('input', () => {
+        if (searchInput.value === '') {
+            applyFiltersAndSort();
         }
-        
-        currentProducts = sortedProducts; // Update data aktif dengan hasil sort
-        displayPage(1); // RESET ke halaman 1 setiap kali sorting
     });
 
     // --- BAGIAN BARU: Event listener untuk tombol pagination ---

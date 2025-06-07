@@ -17,6 +17,7 @@
     gap: 2rem;
     align-items: center;
     justify-items: center;
+    justify-content: center;
     z-index: 2;
     text-align: center;
 }
@@ -38,12 +39,11 @@
 .search {
     display: flex;
     align-items: center;
-    justify-self: stretch;
     background: white;
     border-radius: 50px;
     padding: 0.2rem;
-    flex: 1;
     max-width: 600px;
+    width: 100%;
     margin: 0 2rem;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
@@ -72,7 +72,6 @@
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease;
-    /* box-shadow: 0 2px 10px rgba(255, 107, 107, 0.3); */
 }
 
 .floating-elements {
@@ -145,12 +144,13 @@
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); /* Bikin responsif */
+    grid-template-columns: repeat(auto-fit, 20rem); /* Bikin responsif */
     gap: 3rem;
 }
 
 .product-card {
-    background-color: var(--lavender-blush);
+    /* background-color: var(--lavender-blush); */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     border-radius: 15px;
     padding: 20px;
     position: relative; /* Buat positioning badge */
@@ -159,11 +159,13 @@
     align-items: center; /* Tengahkan konten kartu */
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
 }
 
 .product-card:hover {
-    transform: scale(1.01); /* Kartu jadi 3% lebih besar pas di-hover */
-    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.10); /* Shadow-nya dibikin lebih dramatis dikit (opsional) */
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    border-color: var(--lavender);
 }
 
 .product-card .badge {
@@ -318,9 +320,8 @@
 }
 
 .page-nav:hover {
-    background-color: #3498db;
-    color: white;
-    border-color: #3498db;
+    background-color: var(--lavender-blush);
+    color: black;
 }
 
 /* Style untuk tombol yang non-aktif */
