@@ -56,6 +56,16 @@
 
     <section class="products">
         <div class="container">
+            <div class="sort-container">
+                <label for="sort-options">Urutkan berdasarkan: </label>
+                <select id="sort-options">
+                    <option value="default">Paling Sesuai</option>
+                    <option value="price-asc">Harga: Termurah - Termahal</option>
+                    <option value="price-desc">Harga: Termahal - Termurah</option>
+                    <option value="rating-desc">Rating: Tertinggi - Terendah</option>
+                    <option value="name-asc">Nama: A - Z</option>
+                </select>
+            </div>
             <div class="product-grid-container">
                 <div class="product-grid" id="productGrid">
                 </div>

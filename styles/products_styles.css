@@ -119,6 +119,23 @@
     animation-delay: 2s;
 }
 
+.sort-container {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+#sort-options {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
 .product-grid-container {
     max-width: 1200px;
     margin: 3rem auto;

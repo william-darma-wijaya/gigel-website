@@ -7,7 +7,7 @@
         "rating": { "average": 4.3, "count": 5234 },
         "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 6.357/hari"
+        "pricePerDay": "6357"
     },
     {
         "id": "p2",
@@ -17,7 +17,7 @@
         "rating": { "average": 4.9, "count": 1234 },
         "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 5.000/hari"
+        "pricePerDay": "5000"
     },
     {
         "id": "p3",
@@ -27,7 +27,7 @@
         "rating": { "average": 4.9, "count": 23 },
         "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 1.428/hari"
+        "pricePerDay": "1428"
     },
     {
         "id": "p4",
@@ -37,7 +37,7 @@
         "rating": { "average": 4.3, "count": 5234 },
         "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 6.357/hari"
+        "pricePerDay": "6357"
     },
     {
         "id": "p5",
@@ -47,7 +47,7 @@
         "rating": { "average": 4.9, "count": 1234 },
         "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 5.000/hari"
+        "pricePerDay": "5000"
     },
     {
         "id": "p6",
@@ -57,7 +57,7 @@
         "rating": { "average": 4.9, "count": 23 },
         "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 1.428/hari"
+        "pricePerDay": "1428"
     },
     {
         "id": "p7",
@@ -67,7 +67,7 @@
         "rating": { "average": 4.3, "count": 5234 },
         "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 6.357/hari"
+        "pricePerDay": "6357"
     },
     {
         "id": "p8",
@@ -77,7 +77,7 @@
         "rating": { "average": 4.9, "count": 1234 },
         "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 5.000/hari"
+        "pricePerDay": "5000"
     },
     {
         "id": "p9",
@@ -87,7 +87,7 @@
         "rating": { "average": 4.9, "count": 23 },
         "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 1.428/hari"
+        "pricePerDay": "1428"
     },
     {
         "id": "p10",
@@ -97,7 +97,7 @@
         "rating": { "average": 4.3, "count": 5234 },
         "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 6.357/hari"
+        "pricePerDay": "6357"
     },
     {
         "id": "p11",
@@ -107,7 +107,7 @@
         "rating": { "average": 4.9, "count": 1234 },
         "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 5.000/hari"
+        "pricePerDay": "5000"
     },
     {
         "id": "p12",
@@ -117,6 +117,6 @@
         "rating": { "average": 4.9, "count": 23 },
         "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "Rp 1.428/hari"
+        "pricePerDay": "1428"
     }
 ]
