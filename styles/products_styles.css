@@ -270,6 +270,7 @@
     border-radius: 10px;
     padding: 12px 25px;
     font-size: 0.85rem;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -380,6 +381,7 @@
     border-radius: 25px;
     outline: none;
     font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
     transition: border-color 0.3s ease;
 }
 
@@ -396,6 +398,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
     white-space: nowrap;
 }
 
