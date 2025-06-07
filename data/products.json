@@ -1,122 +1,402 @@
 [
     {
         "id": "p1",
-        "badge": { "text": "TERLARIS", "type": "best-seller" },
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
         "image": "../assets/Little-Tikes-Rocking-Horse.png",
         "title": "Little Tikes Rocking Horse",
-        "rating": { "average": 4.3, "count": 5234 },
+        "rating": {
+            "average": 4.3,
+            "count": 5234
+        },
         "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
         "buttonText": "Sewa Produk",
         "pricePerDay": "6357"
     },
     {
         "id": "p2",
-        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
+        "badge": {
+            "text": "RATING TERTINGGI",
+            "type": "top-rated"
+        },
         "image": "../assets/Winfun-Walking-Ride-On-Train.png",
         "title": "Winfun Walking Ride on Train",
-        "rating": { "average": 4.9, "count": 1234 },
+        "rating": {
+            "average": 4.9,
+            "count": 1234
+        },
         "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
         "buttonText": "Sewa Produk",
         "pricePerDay": "5000"
     },
     {
         "id": "p3",
-        "badge": { "text": "PRODUK BARU", "type": "new-product" },
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
         "image": "../assets/Around-The-House-Sound-Puzzle.png",
         "title": "Around the House Sound Puzzle",
-        "rating": { "average": 4.9, "count": 23 },
+        "rating": {
+            "average": 4.9,
+            "count": 23
+        },
         "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
         "buttonText": "Sewa Produk",
         "pricePerDay": "1428"
     },
     {
         "id": "p4",
-        "badge": { "text": "TERLARIS", "type": "best-seller" },
-        "image": "../assets/Little-Tikes-Rocking-Horse.png",
-        "title": "Little Tikes Rocking Horse",
-        "rating": { "average": 4.3, "count": 5234 },
-        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/United-Picabo-Balance-Kick-Bike.png",
+        "title": "United Picabo Balance Kick Bike",
+        "rating": {
+            "average": 4.4,
+            "count": 95
+        },
+        "description": "Balance Bike dari United adalah sepeda tanpa pedal untuk anak usia 18 bulan–4 tahun yang melatih keseimbangan. Terbuat dari magnesium alloy yang ringan dan kokoh.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "6357"
+        "pricePerDay": "9214"
     },
     {
         "id": "p5",
-        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
-        "image": "../assets/Winfun-Walking-Ride-On-Train.png",
-        "title": "Winfun Walking Ride on Train",
-        "rating": { "average": 4.9, "count": 1234 },
-        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Balance-Beam.png",
+        "title": "Balance Beam",
+        "rating": {
+            "average": 4.6,
+            "count": 5155
+        },
+        "description": "Mainan anak balance beam ini dapat melatih keseimbangan dan motorik anak. Terbuat dari kayu yang solid dan kokoh. Mudah dilipat dan disimpan.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "5000"
+        "pricePerDay": "5642"
     },
     {
         "id": "p6",
-        "badge": { "text": "PRODUK BARU", "type": "new-product" },
-        "image": "../assets/Around-The-House-Sound-Puzzle.png",
-        "title": "Around the House Sound Puzzle",
-        "rating": { "average": 4.9, "count": 23 },
-        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Hump-Pikler.png",
+        "title": "Hump Pikler",
+        "rating": {
+            "average": 4.3,
+            "count": 125
+        },
+        "description": "Hump Pikler digunakan sebagai permainan yang dapat melatih gerakan motorik kasar si kecil untuk belajar memanjat, melatih kepercayaan diri dan imajinasinya.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "1428"
+        "pricePerDay": " 9928"
     },
     {
         "id": "p7",
-        "badge": { "text": "TERLARIS", "type": "best-seller" },
-        "image": "../assets/Little-Tikes-Rocking-Horse.png",
-        "title": "Little Tikes Rocking Horse",
-        "rating": { "average": 4.3, "count": 5234 },
-        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Mainan-Mini-Slide.png",
+        "title": "Mainan Mini Slide",
+        "rating": {
+            "average": 5,
+            "count": 5571
+        },
+        "description": "Perosotan ini memiliki bentuk yang menggemaskan dan lucu. Dilengkapi juga dengan ayunan dengan pagar pengaman. ",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "6357"
+        "pricePerDay": "13500"
     },
     {
         "id": "p8",
-        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
-        "image": "../assets/Winfun-Walking-Ride-On-Train.png",
-        "title": "Winfun Walking Ride on Train",
-        "rating": { "average": 4.9, "count": 1234 },
-        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Haenim-Play-House.png",
+        "title": "Haenim Play House",
+        "rating": {
+            "average": 4.7,
+            "count": 8992
+        },
+        "description": "Playhouse ini akan menciptakan suasana yang menyenangkan dan memberi kebahagiaan bagi anak-anak. ",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "5000"
+        "pricePerDay": "24714"
     },
     {
         "id": "p9",
-        "badge": { "text": "PRODUK BARU", "type": "new-product" },
-        "image": "../assets/Around-The-House-Sound-Puzzle.png",
-        "title": "Around the House Sound Puzzle",
-        "rating": { "average": 4.9, "count": 23 },
-        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Motor-Aki-688.png",
+        "title": "Motor Aki 688",
+        "rating": {
+            "average": 4.8,
+            "count": 5789
+        },
+        "description": "Mainan Motor Aki ini memiliki lampu LED dan desain yang interaktif. Anak bisa bermain dengan aman lho karena memiliki seatbelt dan soft touch feature.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "1428"
+        "pricePerDay": "19587"
     },
     {
         "id": "p10",
-        "badge": { "text": "TERLARIS", "type": "best-seller" },
-        "image": "../assets/Little-Tikes-Rocking-Horse.png",
-        "title": "Little Tikes Rocking Horse",
-        "rating": { "average": 4.3, "count": 5234 },
-        "description": "Mainan kuda goyang yang aman untuk anak usia 12+ bulan, terbuat dari plastik berkualitas tinggi untuk mendukung perkembangan motorik.",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Mobil-Aki-Lexus-Lx600.png",
+        "title": "Mobil Aki Lexus LX600",
+        "rating": {
+            "average": 4.2,
+            "count": 454
+        },
+        "description": "Mobil aki anak dengan merek Lexus tipe LX600 berlicense sehingga desainnya bagus seperti mobil aslinya.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "6357"
+        "pricePerDay": "32571"
     },
     {
         "id": "p11",
-        "badge": { "text": "RATING TERTINGGI", "type": "top-rated" },
-        "image": "../assets/Winfun-Walking-Ride-On-Train.png",
-        "title": "Winfun Walking Ride on Train",
-        "rating": { "average": 4.9, "count": 1234 },
-        "description": "Mainan tunggang 3-in-1 untuk anak usia 12+ bulan yang mengembangkan keterampilan motorik serta memperkenalkan huruf, warna, dan suara.",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Trunki-Bronco-The-Horse.png",
+        "title": "Trunki Bronco the Horse",
+        "rating": {
+            "average": 4.1,
+            "count": 355
+        },
+        "description": "Koper anak berbentuk mobil yang ringan dan lucu, cocok untuk membawa perlengkapan sekolah atau travelling si kecil.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "12475"
+    },
+    {
+        "id": "p12",
+        "badge": {
+            "text": "RATING TERTINGGI",
+            "type": "top-rated"
+        },
+        "image": "../assets/Mothercare-The-Snug-Moses-Basket.png",
+        "title": "Mothercare The Snug Moses Basket",
+        "rating": {
+            "average": 5,
+            "count": 1344
+        },
+        "description": "Keranjang anyaman mewah dengan kasur busa dan coverlet lembut, cocok untuk bayi baru lahir usia 0–3 bulan. Dilengkapi pegangan kulit krem kokoh, mudah dipindahkan dan nyaman digunakan.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "11064"
+    },
+    {
+        "id": "p13",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/The-Little-Mermaid-Kids-Bike.png",
+        "title": "The Little Mermaid Kids Bike",
+        "rating": {
+            "average": 4.7,
+            "count": 234
+        },
+        "description": "Sepeda anak roda 12 inch berbahan Hi-Ten Steel, kokoh dan aman dengan roda bantu samping yang dapat dilepas. Cocok untuk usia 3–8 tahun, mendukung transisi ke sepeda roda dua.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "9285"
+    },
+    {
+        "id": "p14",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Tayo-Big-Bus-Slide.png",
+        "title": "Tayo Big Bus Slide",
+        "rating": {
+            "average": 4.1,
+            "count": 9234
+        },
+        "description": "Rumah bermain bus sekolah besar dengan seluncuran seru dan pintu buka-tutup untuk bermain peran. Aman dan interaktif, mendukung imajinasi serta aktivitas fisik anak.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "37714"
+    },
+    {
+        "id": "p15",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Mini-By-Easywalker-Buggy.png",
+        "title": "MINI by Easywalker Buggy",
+        "rating": {
+            "average": 4.6,
+            "count": 156
+        },
+        "description": "Stroller ringan dan ringkas, mudah dilipat satu tangan serta muat kabin pesawat—praktis untuk bepergian. Dilengkapi suspensi roda, kanopi XL UPF 50+, dan posisi rebah penuh untuk kenyamanan anak.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "20000"
+    },
+    {
+        "id": "p16",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Elc-Giant-Activity-Cube.png",
+        "title": "ELC Giant Activity Cube",
+        "rating": {
+            "average": 4.3,
+            "count": 5765
+        },
+        "description": "Mainan edukatif berbahan plastik yang mengajarkan warna, angka, dan bentuk secara menyenangkan. Cocok untuk anak usia 12 bulan ke atas.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "5714"
+    },
+    {
+        "id": "p17",
+        "badge": {
+            "text": "RATING TERTINGGI",
+            "type": "top-rated"
+        },
+        "image": "../assets/Winfun-Roll-N-Pop-Walker.png",
+        "title": "Winfun Roll N Pop Walker",
+        "rating": {
+            "average": 4.9,
+            "count": 2505
+        },
+        "description": "Baby walker berdesain stabil dengan lampu, suara, dan tombol interaktif yang mendukung perkembangan motorik bayi. Cocok untuk usia 6–12 bulan, tanpa bola mainan.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "1300"
+    },
+    {
+        "id": "p18",
+        "badge": {
+            "text": "RATING TERTINGGI",
+            "type": "top-rated"
+        },
+        "image": "../assets/Ikea-Mula-Bead-Roller-Coaster.png",
+        "title": "IKEA Mula Bead roller coaster",
+        "rating": {
+            "average": 4.9,
+            "count": 2325
+        },
+        "description": "Mainan edukatif kayu dengan manik-manik warna-warni untuk melatih motorik halus dan logika anak. Aman dan tahan lama, cocok mulai usia 1 tahun.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "2770"
+    },
+    {
+        "id": "p19",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Ingenuity-Baby-Base-2-In-1.png",
+        "title": "Ingenuity Baby Base 2 in 1",
+        "rating": {
+            "average": 4.1,
+            "count": 175
+        },
+        "description": "Kursi booster ringan dan mudah dibersihkan, ideal untuk makan dan bermain di lantai atau di atas kursi. Cocok untuk usia 4–48 bulan, mendukung latihan duduk dengan aman.",
         "buttonText": "Sewa Produk",
         "pricePerDay": "5000"
     },
     {
-        "id": "p12",
-        "badge": { "text": "PRODUK BARU", "type": "new-product" },
-        "image": "../assets/Around-The-House-Sound-Puzzle.png",
-        "title": "Around the House Sound Puzzle",
-        "rating": { "average": 4.9, "count": 23 },
-        "description": "Puzzle suara untuk anak usia 18+ bulan yang memicu imajinasi dan kreativitas, dengan 8 kepingan yang punya suara rumah tangga berbeda.",
+        "id": "p20",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Gro-Hush-Baby-Calmer.png",
+        "title": "Gro Hush Baby Calmer",
+        "rating": {
+            "average": 4.8,
+            "count": 165
+        },
+        "description": "Perangkat white noise portabel dengan volume aman yang membantu menenangkan bayi sejak baru lahir. Praktis dibawa bepergian, otomatis mati setelah 10 menit.",
         "buttonText": "Sewa Produk",
-        "pricePerDay": "1428"
+        "pricePerDay": "5500"
+    },
+    {
+        "id": "p21",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Montessori-The-Long-Red-Rods.png",
+        "title": "Montessori The Long Red Rods",
+        "rating": {
+            "average": 4.5,
+            "count": 5101
+        },
+        "description": "Sepuluh batang kayu merah dengan tinggi dan lebar tetap memiliki panjang bertingkat mulai dari 10 cm hingga 1 meter, dengan selisih 10 cm di antara masing-masing batang.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "3571"
+    },
+    {
+        "id": "p22",
+        "badge": {
+            "text": "RATING TERTINGGI",
+            "type": "top-rated"
+        },
+        "image": "../assets/Disney-Baby-Minnie-Mouse.png",
+        "title": "Disney Baby MINNIE MOUSE",
+        "rating": {
+            "average": 4.9,
+            "count": 3341
+        },
+        "description": "Disney Baby MINNIE MOUSE PeekABoo Walker yang merupakan walker yang kokoh yang dapat diandalkan untuk si kecil belajar berjalan.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "5714"
+    },
+    {
+        "id": "p23",
+        "badge": {
+            "text": "PRODUK BARU",
+            "type": "new-product"
+        },
+        "image": "../assets/Hape-Build-A-Bug-Sorter.png",
+        "title": "Hape Build A Bug Sorter",
+        "rating": {
+            "average": 4.5,
+            "count": 354
+        },
+        "description": "Puzzle Multi-layered bugs yang dapat merangsang anak untuk menghitung, sorting, and color identification.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "2750"
+    },
+    {
+        "id": "p24",
+        "badge": {
+            "text": "TERLARIS",
+            "type": "best-seller"
+        },
+        "image": "../assets/Fisher-Price-Musical.png",
+        "title": "Fisher Price Musical",
+        "rating": {
+            "average": 4.6,
+            "count": 5137
+        },
+        "description": "Mainan dengan 8 aktivitas yang memakai tangan seperti musical piano keys, peek-a-boo mirror, dan spinning dial.",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "4278"
+    },
+    {
+        "id": "p25",
+        "badge": {
+            "text": "RATING TERTINGGI",
+            "type": "top-rated"
+        },
+        "image": "../assets/Doona-Liki-Trike.png",
+        "title": "Doona Liki Trike",
+        "rating": {
+            "average": 5,
+            "count": 1486
+        },
+        "description": "Kuda-kudaan untuk anak berbahan plastik yang berkualitas tinggi standar dari Little Tikes. ",
+        "buttonText": "Sewa Produk",
+        "pricePerDay": "30857"
     }
 ]
