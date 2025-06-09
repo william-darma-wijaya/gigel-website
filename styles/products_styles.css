@@ -149,7 +149,6 @@
 }
 
 .product-card {
-    /* background-color: var(--lavender-blush); */
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     border-radius: 15px;
     padding: 20px;
@@ -165,7 +164,7 @@
 .product-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    border-color: var(--lavender);
+    border-color: #ff9a9e;
 }
 
 .product-card .badge {
@@ -263,6 +262,35 @@
     margin-bottom: 15px;
     height: 4.5em; /* Batasi tinggi deskripsi */
     overflow: hidden;
+}
+
+.button-group {
+  display: flex;
+  width: 100%;
+  gap: 10px; /* Jarak antar tombol */
+  justify-content: center; /* Biar di tengah */
+  margin-top: 20px; /* Opsional */
+}
+
+.add-to-cart {
+    width: 40%;
+    background: white;
+    color: #333;
+    padding: 0.75rem;
+    border-radius: 15px;
+    border: 2px solid #ff9a9e; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+}
+
+.add-to-cart:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    border: none;
+    box-shadow: 0 4px 15px rgba(255, 154, 158, 0.4);
 }
 
 .rent-button {

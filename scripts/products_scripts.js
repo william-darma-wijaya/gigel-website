@@ -100,6 +100,14 @@ document.addEventListener('DOMContentLoaded', () => {
             maximumFractionDigits: 0
         }).format(product.pricePerDay);
 
+        const buttonGroup = document.createElement('div');
+        buttonGroup.classList.add('button-group');
+
+        const addToCartBtn = document.createElement('button');
+        addToCartBtn.classList.add('add-to-cart');
+        addToCartBtn.innerHTML = `+<i class="fas fa-cart-shopping"></i>`;
+        buttonGroup.appendChild(addToCartBtn);
+
         // 2. Buat tombolnya
         const button = document.createElement('button');
         button.classList.add('rent-button');
@@ -109,8 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
             ${product.buttonText}
             <span class="price">${formattedPrice} / hari</span>
         `;
-
-        card.appendChild(button);
+        buttonGroup.appendChild(button);
+        card.appendChild(buttonGroup);
         // --- Akhir dari bagian yang diubah ---
 
         return card;
