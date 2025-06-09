@@ -338,12 +338,12 @@
 }
 
 .add-to-cart {
-    width: 100%;
-    background: #fecfef;
+    width: 40%;
+    background: white;
     color: #333;
-    border: none;
     padding: 0.75rem;
     border-radius: 15px;
+    border: 2px solid #ff9a9e; 
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 600;
@@ -353,6 +353,8 @@
 
 .add-to-cart:hover {
     transform: translateY(-2px);
+    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    border: none;
     box-shadow: 0 4px 15px rgba(255, 154, 158, 0.4);
 }
 
