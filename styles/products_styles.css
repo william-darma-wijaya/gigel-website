@@ -288,7 +288,8 @@
 
 .add-to-cart:hover {
     transform: translateY(-2px);
-    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    background: linear-gradient(to right, #FF96A7, #E260E2);
+    color: white;
     border: none;
     box-shadow: 0 4px 15px rgba(255, 154, 158, 0.4);
 }
